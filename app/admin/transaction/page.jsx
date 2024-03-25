@@ -58,6 +58,14 @@ const TABLE_ROWS = [
             />
 
             <Button>บันทึก</Button>
+
+            <Input
+              label="ค้นหา"
+              type="text"
+              value={input1}
+              onChange={(e) => setInput1(e.target.value)}
+            />
+
             <Button>ค้นหา</Button>
         </div>
       </div>

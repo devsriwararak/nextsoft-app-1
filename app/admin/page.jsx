@@ -29,9 +29,7 @@ export default function Home() {
           <button onClick={()=>setShow(false)} className="bg-gray-700 text-white px-4 py-2 rounded-md">
             ล้างข้อมูล
           </button>
-          <button className="bg-red-500 text-white px-4 py-2 rounded-md">
-            ออกจากระบบ
-          </button>
+  
         </div>
       </div>
 
