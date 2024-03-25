@@ -20,7 +20,10 @@ export default function RootLayout({ children }) {
       <RecoilRoot>
         
         
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+
+        {children}
+        </body>
       </RecoilRoot>
     </html>
   );
