@@ -11,17 +11,17 @@ import { hideActiveStore } from "../../store/store";
 
 const items = [
   {
-    name: "Dashboard",
+    name: "ค้นหาข้อมูล",
     path: "/admin",
     icon: LayoutDashboard,
   },
   {
-    name: "Transaction",
+    name: "ข้อมูล User",
     path: "/admin/transaction",
     icon: LayoutDashboard,
   },
   {
-    name: "Setting",
+    name: "ตั้งค่า อื่นๆ",
     path: "/admin/setting",
     icon: LayoutDashboard,
     items: [

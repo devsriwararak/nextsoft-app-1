@@ -48,7 +48,7 @@ export default function Home() {
         <ToastContainer autoClose={2000} theme="colored" />
         <Card className="w-96 my-32 border-2 bg-gray-50 ">
           <div className="flex justify-center mt-10">
-            <Typography variant="h4">เข้าสู่ระบบ.</Typography>
+            <Typography variant="h4">เข้าสู่ระบบ</Typography>
           </div>
           <CardBody className="flex flex-col  gap-4 mt-10">
             <Input
@@ -82,14 +82,13 @@ export default function Home() {
               variant="gradient"
               fullWidth
               onClick={handleSignIn}
+              className="text-md"
             >
-              <Typography variant="h5" color="white">
-                เข้าสู่ระบบ
-              </Typography>
+          เข้าสู่ระบบ
             </Button>
 
             <Link href="/addData">
-              <Button fullWidth variant="gradient" className="text-lg mt-4">
+              <Button fullWidth variant="gradient" className="text-md mt-4">
                 เพิ่มข้อมูล (ไม่แนะนำ)
               </Button>
             </Link>
