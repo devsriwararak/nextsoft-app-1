@@ -36,13 +36,13 @@ export default function Home() {
 
         <div className="mt-4 flex flex-col md:flex-row gap-2">
           <Input
-            type="number"
+            type="text"
             label="INPUT LPN NO"
             value={input || ""}
             className="w-full"
             onChange={(e) => setInput(e.target.value)}
           />
-          <Input type="number" label="INPUT BATCH NO " className="w-full" />
+          <Input type="text" label="INPUT BATCH NO " className="w-full" />
 
           <div className="w-full flex flex-col md:flex-row gap-2">
             <button
