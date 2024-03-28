@@ -42,7 +42,6 @@ export default function Home() {
             className="w-full"
             onChange={(e) => setInput(e.target.value)}
           />
-          <Input type="text" label="INPUT BATCH NO " className="w-full" />
 
           <div className="w-full flex flex-col md:flex-row gap-2">
             <button
@@ -69,7 +68,7 @@ export default function Home() {
           {/* Section 1 */}
           <div className="flex flex-col md:flex-row gap-2 mt-4">
             <div className="flex flex-col gap-1 w-full">
-              <small>Product Name :</small>
+              <small>Product Code :</small>
               <p>
                 {showStatus === 1
                   ? "BDS001504800001"
@@ -82,7 +81,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-1 w-full">
-              <small>Product Code :</small>
+              <small>Product Name :</small>
               {showStatus === 1
                 ? "แผ่นพื้นเฌอร่าบอร์ด 1.5x120x240ซม"
                 : showStatus === 2
@@ -104,7 +103,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-1 w-full">
-              <small>Manufacturing Date :</small>
+              <small>Manufacturing Batch :</small>
               {showStatus === 1
                 ? "M162401053"
                 : showStatus === 2
@@ -132,7 +131,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-1 w-full">
-              <small>Arrived Date :</small>
+              <small>Recieved Date :</small>
               {showStatus === 1
                 ? "2024-03-26 07:20:10.000"
                 : showStatus === 2
@@ -143,7 +142,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-1 w-full">
-              <small>Recieved Date :</small>
+              <small>Ship Date :</small>
               {showStatus === 1
                 ? "2024-01-16 11:00:00.000"
                 : showStatus === 2
@@ -154,7 +153,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-1 w-full">
-              <small>Export Date :</small>
+              <small>Arrival Date :</small>
               {showStatus === 1
                 ? "2024-03-25 07:20:10.000"
                 : showStatus === 2
@@ -169,7 +168,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row gap-2 mt-5">
             <div className="flex flex-col gap-1 w-full md:w-1/3 ">
-              <small>AddWho :</small>
+              <small>Loader :</small>
               <p>
                 {showStatus === 1
                   ? "sumit_p"
